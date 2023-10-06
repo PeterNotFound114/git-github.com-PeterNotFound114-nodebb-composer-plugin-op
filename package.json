@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-composer-op",
-  "version": "9.2.4",
-  "description": "Default composer for NodeBB",
+  "version": "9.2.5",
+  "description": "Composer for NodeBB of Team OP's needs of building",
   "main": "library.js",
   "repository": {
     "type": "git",
