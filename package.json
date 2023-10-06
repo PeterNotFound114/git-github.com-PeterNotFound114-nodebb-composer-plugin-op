@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-composer-default",
+  "name": "nodebb-plugin-composer-op",
   "version": "9.2.4",
   "description": "Default composer for NodeBB",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeBB/nodebb-plugin-composer-default"
+    "url": "https://github.com/PeterNotFound114/nodebb-composer-plugin-op"
   },
   "scripts": {
     "lint": "eslint ."
@@ -17,12 +17,12 @@
     "markdown"
   ],
   "author": {
-    "name": "NodeBB Team",
-    "email": "sales@nodebb.org"
+    "name": "Peter Lu",
+    "email": "sicheng2@andrew.cmu.edu"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NodeBB/nodebb-plugin-composer-default/issues"
+    "url": "https://github.com/PeterNotFound114/nodebb-composer-plugin-op/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
