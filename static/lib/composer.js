@@ -628,6 +628,7 @@ define('composer', [
 		var handleEl = postContainer.find('.handle');
 		var titleEl = postContainer.find('.title');
 		var bodyEl = postContainer.find('textarea');
+		var anonymousEl = postContainer.find('#anonymous-toggle');
 		var thumbEl = postContainer.find('input#topic-thumb-url');
 		var onComposeRoute = postData.hasOwnProperty('template') && postData.template.compose === true;
 		const submitBtn = postContainer.find('.composer-submit');
@@ -696,6 +697,7 @@ define('composer', [
 				cid: categoryList.getSelectedCid(),
 				tags: tags.getTags(post_uuid),
 				timestamp: scheduler.getTimestamp(),
+				isAnon: anonymousEl.is(':checked')
 			};
 		} else if (action === 'posts.reply') {
 			route = `/topics/${postData.tid}`;
