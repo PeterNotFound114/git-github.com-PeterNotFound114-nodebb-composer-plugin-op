@@ -77,6 +77,15 @@
 					</form>
 				</ul>
 
+				<!-- Add the "Post as Anonymous" checkbox button here -->
+				<div>
+					<label class="switch">
+					<input type="checkbox" id="anonymous-toggle">
+					<span class="slider round"></span>
+					</label>
+					<span class="toggle-label">Anonymous</span>
+				</div>
+
 				<div class="btn-group pull-right action-bar">
 					<a href="{discardRoute}" class="btn btn-default composer-discard" data-action="discard" tabindex="-1"><i class="fa fa-times"></i> [[topic:composer.discard]]</a>
 
